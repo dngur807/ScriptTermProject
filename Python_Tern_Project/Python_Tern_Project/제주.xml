@@ -14,22 +14,22 @@
 				<item>
 					<stationName>이도동</stationName>
 					
-					<dataTime>2017-05-27 02:00</dataTime>
+					<dataTime>2017-05-28 02:00</dataTime>
 					<so2Value>0.002</so2Value>
 					<coValue>0.3</coValue>
-					<o3Value>0.052</o3Value>
-					<no2Value>0.006</no2Value>
-					<pm10Value>12</pm10Value>
+					<o3Value>0.046</o3Value>
+					<no2Value>0.011</no2Value>
+					<pm10Value>38</pm10Value>
 					
 					
 				    
-					<khaiValue>68</khaiValue>
+					<khaiValue>63</khaiValue>
 					<khaiGrade>2</khaiGrade>
 					<so2Grade>1</so2Grade>
 					<coGrade>1</coGrade>
 					<o3Grade>2</o3Grade>
 					<no2Grade>1</no2Grade>
-					<pm10Grade>1</pm10Grade>
+					<pm10Grade>2</pm10Grade>
 					
 				    
 				</item>
@@ -37,35 +37,12 @@
 				<item>
 					<stationName>연동</stationName>
 					
-					<dataTime>2017-05-27 02:00</dataTime>
+					<dataTime>2017-05-28 02:00</dataTime>
 					<so2Value>0.003</so2Value>
-					<coValue>0.1</coValue>
-					<o3Value>0.058</o3Value>
-					<no2Value>0.005</no2Value>
-					<pm10Value>12</pm10Value>
-					
-					
-				    
-					<khaiValue>73</khaiValue>
-					<khaiGrade>2</khaiGrade>
-					<so2Grade>1</so2Grade>
-					<coGrade>1</coGrade>
-					<o3Grade>2</o3Grade>
-					<no2Grade>1</no2Grade>
-					<pm10Grade>1</pm10Grade>
-					
-				    
-				</item>
-			
-				<item>
-					<stationName>동홍동</stationName>
-					
-					<dataTime>2017-05-27 02:00</dataTime>
-					<so2Value>0.001</so2Value>
-					<coValue>0.1</coValue>
+					<coValue>0.2</coValue>
 					<o3Value>0.046</o3Value>
-					<no2Value>0.003</no2Value>
-					<pm10Value>9</pm10Value>
+					<no2Value>0.014</no2Value>
+					<pm10Value>24</pm10Value>
 					
 					
 				    
@@ -81,14 +58,37 @@
 				</item>
 			
 				<item>
+					<stationName>동홍동</stationName>
+					
+					<dataTime>2017-05-28 02:00</dataTime>
+					<so2Value>0.001</so2Value>
+					<coValue>0.2</coValue>
+					<o3Value>0.030</o3Value>
+					<no2Value>0.009</no2Value>
+					<pm10Value>25</pm10Value>
+					
+					
+				    
+					<khaiValue>50</khaiValue>
+					<khaiGrade>1</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>1</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>1</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
 					<stationName>고산리</stationName>
 					
-					<dataTime>2017-05-27 02:00</dataTime>
+					<dataTime>2017-05-28 02:00</dataTime>
 					<so2Value>0.000</so2Value>
-					<coValue>0.1</coValue>
-					<o3Value>0.051</o3Value>
-					<no2Value>0.002</no2Value>
-					<pm10Value>5</pm10Value>
+					<coValue>0.2</coValue>
+					<o3Value>0.049</o3Value>
+					<no2Value>0.003</no2Value>
+					<pm10Value>-</pm10Value>
 					
 					
 				    
