@@ -33,83 +33,97 @@ class UI_Image(object):
         self.stationcomboBox = UI_Utility.Create_ComboBox("stationcomboBox" , self.tab1 , QtCore.QRect(250 + 50 , 50 , 70 , 20));
         #for item in self.root.iter('item'):
         #    self.stationcomboBox.addItem(item.findtext('stationName'))
-        
+
+        #시간 출력
         font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setWeight = 75  , setBold = True , setPointSize = 18 , setItalic = False , setUnderline = False);
         self.CurTimeLabel = UI_Utility.Create_Label("CurTimeLabel" , self.tab1 ,  QtCore.QRect(230 , 130, 550 , 20) , font);
 
 
-
-        #self.textEdit_4 = UI_Utility.Create_TextEdit("textEdit_4" ,  self.tab1 , QtCore.QRect(180, 30, 291, 31));# 찾기 검색 하는 곳
-
-        #self.textBrowser_2 = UI_Utility.Create_TextBrowser("textBrowser_2" , self.tab1 , QtCore.QRect(310, 120, 151, 31));
-
-        self.textBrowser_4 = UI_Utility.Create_TextBrowser("textBrowser_4" , self.tab1 , QtCore.QRect(360, 190, 211, 31));
-        self.textBrowser_5 = UI_Utility.Create_TextBrowser("textBrowser_5" , self.tab1 , QtCore.QRect(360, 230, 211, 31));
-        self.textBrowser_6 = UI_Utility.Create_TextBrowser("textBrowser_6" , self.tab1 , QtCore.QRect(360, 270, 211, 31));
-        self.textBrowser_7 = UI_Utility.Create_TextBrowser("textBrowser_7" , self.tab1 , QtCore.QRect(360, 310, 211, 31)); 
-        self.textBrowser_8 = UI_Utility.Create_TextBrowser("textBrowser_8" , self.tab1 , QtCore.QRect(360, 350, 211, 31)); 
-
-        
-        
-        self.label_6 = UI_Utility.Create_Label("label_6" , self.tab1 , QtCore.QRect(280, 195, 71, 21) , font);
-        
-        
+        #미세먼지 농도
         font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setWeight = 75  , setBold = True , setPointSize = 11);
-        self.label_7 = UI_Utility.Create_Label("label_7" , self.tab1 , QtCore.QRect(50, 410, 211, 1211) , font);
+        self.findustlabel = UI_Utility.Create_Label("findustlabel" , self.tab1 , QtCore.QRect(270, 195, 81, 21) , font)
+        self.findustBrowser = UI_Utility.Create_TextBrowser("findustBrowser" , self.tab1 , QtCore.QRect(360, 190, 211, 31));
 
-
-
-        self.textBrowser_9 = UI_Utility.Create_TextBrowser("textBrowser_9" , self.tab1 , QtCore.QRect(50, 410, 211, 121));
-        self.textBrowser_10 = UI_Utility.Create_TextBrowser("textBrowser_10" , self.tab1 , QtCore.QRect(360, 470, 211, 31));
-        self.textBrowser_11 = UI_Utility.Create_TextBrowser("textBrowser_11" , self.tab1 , QtCore.QRect(360, 430, 211, 31));
-        self.textBrowser_12 = UI_Utility.Create_TextBrowser("textBrowser_12" , self.tab1 , QtCore.QRect(360, 510, 211, 31));
-        self.textBrowser_13 = UI_Utility.Create_TextBrowser("textBrowser_13" , self.tab1 , QtCore.QRect(360, 390, 211, 31)); 
-
-        font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setWeight = 75  , setBold = True , setPointSize = 11); 
-        self.label_8 = UI_Utility.Create_Label("label_8", self.tab1 , QtCore.QRect(120, 365, 101, 21) , font);       
-        self.label_9 = UI_Utility.Create_Label("label_9", self.tab1 , QtCore.QRect(120, 536, 101, 20) , font);
-        self.label_10 = UI_Utility.Create_Label("label_10", self.tab1 , QtCore.QRect(280, 235, 64, 20) , font);
-        self.label_11 = UI_Utility.Create_Label("label_11", self.tab1 , QtCore.QRect(280, 315, 64, 20) , font);
-        self.label_12 = UI_Utility.Create_Label("label_12", self.tab1 , QtCore.QRect(280, 274, 64, 21) , font);
-        self.label_13 = UI_Utility.Create_Label("label_13", self.tab1 , QtCore.QRect(280, 400, 64, 15) , font);
-        self.label_14 = UI_Utility.Create_Label("label_14" , self.tab1 , QtCore.QRect(280, 475, 64, 20) ,font);
-        self.label_15 = UI_Utility.Create_Label("label_15" , self.tab1 , QtCore.QRect(280, 435, 64, 20) ,font);
-        self.label_16 = UI_Utility.Create_Label("label_16" , self.tab1 , QtCore.QRect(280, 355, 71, 21) ,font);
-        self.label_17 = UI_Utility.Create_Label("label_17" , self.tab1 , QtCore.QRect(280, 516, 81, 20) ,font);
-
-
-
-        self.pushButton_5 = UI_Utility.Create_PushButton("pushButton_5" , self.tab1 , QtCore.QRect(250, 550, 93, 28) , font);
-        self.textBrowser_15 = UI_Utility.Create_TextBrowser("textBrowser_15" , self.tab1 , QtCore.QRect(350, 550, 191, 31));
-
-        self.display_img = UI_Utility.Create_Label("display_img" , self.tab1 , QtCore.QRect(50, 180, 221, 171) , font);
-
-
+        # 오존 농도
+        self.Ozonelabel = UI_Utility.Create_Label("Ozonelabel" , self.tab1 , QtCore.QRect(300, 235, 81, 21) , font)
+        self.OzoneBrowser = UI_Utility.Create_TextBrowser("OzoneBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 , 211, 31));
         
+        # 이산화질소 농도
+        self.nitrogendioxidelable = UI_Utility.Create_Label("nitrogendioxidelable" , self.tab1 , QtCore.QRect(260, 235 + 40, 95, 21) , font)
+        self.nitrogendioxideBrowser = UI_Utility.Create_TextBrowser("nitrogendioxideBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40* 2 , 211, 31));
+
+        # 일산화탄소 농도coValue
+        self.coValuelable = UI_Utility.Create_Label("coValuelable" , self.tab1 , QtCore.QRect(260, 235 + 40 * 2, 95, 21) , font)
+        self.coValueBrowser = UI_Utility.Create_TextBrowser("coValueBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 3 , 211, 31));
+        
+        # 아황산가스 지수
+        self.so2Gradelable = UI_Utility.Create_Label("so2Gradelable" , self.tab1 , QtCore.QRect(258, 235 + 40 * 3, 97, 21) , font)
+        self.so2GradeBrowser = UI_Utility.Create_TextBrowser("so2GradeBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 4 , 211, 31));
+        
+        #일산화 탄소 지수 
+        self.coGradelabel = UI_Utility.Create_Label("coGradelabel" , self.tab1 , QtCore.QRect(258, 235 + 40 * 4, 97, 21) , font)
+        self.coGradeBrowser = UI_Utility.Create_TextBrowser("coGradeBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 5 , 211, 31));
+
+        #오존 지수 지수 
+        self.o3Gradelabel = UI_Utility.Create_Label("o3Gradelabel" , self.tab1 , QtCore.QRect(300, 235 + 40 * 5, 81, 21) , font)
+        self.o3GradeBrowser = UI_Utility.Create_TextBrowser("o3GradeBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 6 , 211, 31));
+
+        # 이산화질소 지수
+        self.no2Gradelable = UI_Utility.Create_Label("no2Gradelable" , self.tab1 , QtCore.QRect(258 ,  235 + 40 * 6, 97, 21) , font);
+        self.no2GradeBrowser = UI_Utility.Create_TextBrowser("no2GradeBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 7 , 211, 31));
+
+        # 통합대기 수치
+        self.khaiValuelable = UI_Utility.Create_Label("khaiValuelable" , self.tab1 , QtCore.QRect(258 ,  235 + 40 * 7, 97, 21) , font); 
+        self.khaiValueBrowser = UI_Utility.Create_TextBrowser("khaiValueBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 8 , 211, 31));
+
+        # 대기오염 상태 이미지
+        self.Dustdisplay_img = UI_Utility.Create_Label("Dustdisplay_img" , self.tab1 , QtCore.QRect(50, 180, 221, 171) , font);
+
+        # 코멘트
+        self.Commentlabel = UI_Utility.Create_Label("Commentlabel" , self.tab1 , QtCore.QRect(120, 536, 101, 20) , font);
+        self.CommentBrowser = UI_Utility.Create_TextBrowser("CommentBrowser" , self.tab1 ,QtCore.QRect(30, 410, 200, 121));
+        
+         #이메일 전송 버튼
+        self.dustSendButton = UI_Utility.Create_PushButton("dustSendButton" , self.tab1 , QtCore.QRect(250, 550, 93, 28) , font);
+        self.SendCheckBrowser = UI_Utility.Create_TextBrowser("SendCheckBrowser" , self.tab1 , QtCore.QRect(350, 550, 93, 28));
+
+        #이미지
         self.pic1 = UI_Utility.Create_Label("pic1" , self.tab1 , QtCore.QRect(10, 30, 161, 141) , font);
         self.pic2 = UI_Utility.Create_Label("pic2" , self.tab1 , QtCore.QRect(480, 30, 161, 141) ,font);
 
+        #메인 그림
+        self.mainpic = UI_Utility.Create_Label("mainpic" , Dialog , QtCore.QRect(0, 0, 705, 150) , font);
         
+       
+
+
         self.tabWidget.addTab(self.tab1, "대기오염")
+        
+        
+#       이메일 선택
+        self.tab_Email = UI_Utility.Create_Widget("tab_Email");    
+        self.tabWidget.addTab(self.tab_Email , "EmailSetting");
 
-        self.tab_4 = UI_Utility.Create_Widget("tab_4");
-        self.textEdit_7 = UI_Utility.Create_TextEdit("textEdit_7" , self.tab_4 , QtCore.QRect(190, 50, 291, 31)  );
+        font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setPointSize = 15 );
+        self.EmailMainlabel = UI_Utility.Create_Label( "EmailMainlabel" , self.tab_Email , QtCore.QRect(190, 40, 311, 41)  , font);
+        
+        self.IDEdit = UI_Utility.Create_TextEdit("IDEdit" ,  self.tab_Email , QtCore.QRect(240, 130, 201, 31));
+        font = UI_Utility.Create_Font(setFamily = "휴먼매직체");
+        self.IDlabel = UI_Utility.Create_Label( "IDlabel" , self.tab_Email , QtCore.QRect(150, 140, 71, 16)  , font);
+        self.Passwordlable = UI_Utility.Create_Label( "IDlabel" , self.tab_Email , QtCore.QRect(150, 190, 71, 20)  , font);
+        self.PasswordEdit = UI_Utility.Create_TextEdit("PasswordEdit" ,  self.tab_Email , QtCore.QRect(240, 190, 201, 31));
 
-        font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setWeight = 75  , setBold = True ); 
-        self.pushButton_4 = UI_Utility.Create_PushButton("pushButton_4" , self.tab_4 , QtCore.QRect(290, 100, 93, 28) , font);
+        self.SendTolabel = UI_Utility.Create_Label( "SendTolabel" , self.tab_Email , QtCore.QRect(150, 250, 64, 15)  , font);
+        self.SendToEdit = UI_Utility.Create_TextEdit("SendToEdit" ,  self.tab_Email , QtCore.QRect(240, 250, 201, 31));
 
-        self.textBrowser = UI_Utility.Create_TextBrowser("textBrowser" , self.tab_4 , QtCore.QRect(40, 140, 591, 371));
-        self.ingrePic2 = UI_Utility.Create_Label("ingrePic2" , self.tab_4 , QtCore.QRect(490, 20, 161, 101) , font);
+        self.MailTitlelable = UI_Utility.Create_Label( "MailTitlelable" , self.tab_Email , QtCore.QRect(150, 330, 64, 15)  , font);
+        self.MailTitleEdit = UI_Utility.Create_TextEdit("MailTitleEdit" ,  self.tab_Email , QtCore.QRect(240, 320, 281, 71));
+      
+        self.SettingButton = UI_Utility.Create_PushButton("SettingButton" , self.tab_Email ,QtCore.QRect(240, 420, 93, 28) , font);
+        self.SettingMsgBrowser =  UI_Utility.Create_TextBrowser("SettingMsgBrowser" , self.tab_Email , QtCore.QRect(180, 460, 211, 31));
 
-        self.pushButton_6 = UI_Utility.Create_PushButton("pushButton_6" , self.tab_4 , QtCore.QRect(210, 540, 93, 28) , font);
+        self.mailBox_Img = UI_Utility.Create_Label("mailBox" , self.tab_Email , QtCore.QRect(420, 420, 191, 151) , font);
 
-        self.textBrowser_16 = UI_Utility.Create_TextBrowser("textBrowser_16", self.tab_4 , QtCore.QRect(310, 540, 191, 31) );
-        self.tabWidget.addTab(self.tab_4 , "");###############
-
-       # self.tab_2 = UI_Utility.Create_Widget("tab_2");
-
-
-     
 
         self.retranslateUI(Dialog);
         self.tabWidget.setCurrentIndex(0)
@@ -119,7 +133,23 @@ class UI_Image(object):
         self._translate = QtCore.QCoreApplication.translate;
         Dialog.setWindowTitle(self._translate("Dialog" , "기상청"));
         self.pushButton.setText(self._translate("Dialog" , "Search"))
-    
-
-
-
+        self.findustlabel.setText(self._translate("findustlabel" , "미세먼지 농도"));
+        self.Ozonelabel.setText(self._translate("Ozonelabel" , "오존 농도"));
+        self.nitrogendioxidelable.setText(self._translate("nitrogendioxidelable" , "이산화질소 농도"));
+        self.coValuelable.setText(self._translate("coValuelable" , "일산화탄소 농도"))
+        self.so2Gradelable.setText(self._translate("so2Gradelable" , "아황산가스 지수"));
+        self.coGradelabel.setText(self._translate("coGradelabel" , "일산화탄소 지수"));
+        self.o3Gradelabel.setText(self._translate("o3Gradelabel" , "오존 지수"));
+        self.no2Gradelable.setText(self._translate("no2Gradelable" , "이산화질소 지수"));
+        self.khaiValuelable.setText(self._translate("khaiValuelable" , "통합대기 수치"));
+        self.Dustdisplay_img.setText(self._translate("Dustdisplay_img" , "이미지 출력"));
+        self.Commentlabel.setText(self._translate(" self.Commentlabel" , "코멘트"));
+        self.mainpic.setText(self._translate("mainpic" , "메인 이미지"));
+        self.dustSendButton.setText(self._translate("dustSendButton" , "Send_Email"));
+        #Email
+        self.EmailMainlabel.setText(self._translate("EmailMainlabel"  , "E-Mail Account Setting"));
+        self.IDlabel.setText(self._translate("IDlabel" , "ID(Gmail)"));
+        self.Passwordlable.setText(self._translate("Passwordlable" , "Password"));
+        self.SendTolabel.setText(self._translate("SendTolabel" , "SendTo"));
+        self.MailTitlelable.setText(self._translate("MailTitlelable" , "Mail Title"));
+        self.SettingButton.setText(self._translate("SettingButton" , "Setting"));
