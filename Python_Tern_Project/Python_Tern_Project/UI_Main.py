@@ -77,7 +77,7 @@ class UI_Image(object):
         self.khaiValueBrowser = UI_Utility.Create_TextBrowser("khaiValueBrowser" , self.tab1 , QtCore.QRect(360, 190 + 40 * 8 , 211, 31));
 
         # 대기오염 상태 이미지
-        self.Dustdisplay_img = UI_Utility.Create_Label("Dustdisplay_img" , self.tab1 , QtCore.QRect(50, 180, 221, 171) , font);
+        self.Dustdisplay_img = UI_Utility.Create_Label("Dustdisplay_img" , self.tab1 , QtCore.QRect(20, 180, 221, 171) , font);
 
         # 코멘트
         self.Commentlabel = UI_Utility.Create_Label("Commentlabel" , self.tab1 , QtCore.QRect(120, 536, 101, 20) , font);

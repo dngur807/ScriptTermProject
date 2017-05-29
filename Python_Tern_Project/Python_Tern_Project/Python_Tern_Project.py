@@ -152,26 +152,26 @@ self.sidocomboBox.currentIndex() == -1) :
                 if (item.findtext('pm10Value') != '-') :
                     ipm10Value = int(item.findtext('pm10Value'));
                     if ipm10Value >= 0 and ipm10Value <= 30:
-                        #writeImageWidget(self.Dustdisplay_img,"/Resource/","smile2","png")
-                        #self.Dustdisplay_img.setScaledContents(True)
+                        writeImageWidget(self.Dustdisplay_img,"/Resource/","good2","png")
+                        self.Dustdisplay_img.setScaledContents(True)
 
                         self.commentMsg = "여행가기 좋은 날입니다.\n실외활동 마음껏 하세요."
 
                     elif ipm10Value >= 31 and ipm10Value <= 80:
-                        #writeImageWidget(self.Dustdisplay_img,"/Resource/","smile3","png")
-                        #self.Dustdisplay_img.setScaledContents(True)
+                        writeImageWidget(self.Dustdisplay_img,"/Resource/","good","png")
+                        self.Dustdisplay_img.setScaledContents(True)
     
                         self.commentMsg = "실외활동하기에 무난한 날씨입니다..";
 
                     elif ipm10Value >= 81 and ipm10Value <= 150:
-                        #writeImageWidget(self.Dustdisplay_img,"/Resource/","smile1","png")
-                        #self.Dustdisplay_img.setScaledContents(True)
+                        writeImageWidget(self.Dustdisplay_img,"/Resource/","bad1","png")
+                        self.Dustdisplay_img.setScaledContents(True)
 
                         self.commentMsg = "왠만하면 실외활동은 자제하세요.\n마스크 착용 권장합니다."
 
                     elif ipm10Value >= 151:
-                        #writeImageWidget(self.Dustdisplay_img,"/Resource/","smile5","png")
-                        #self.Dustdisplay_img.setScaledContents(True)
+                        writeImageWidget(self.Dustdisplay_img,"/Resource/","bad2","png")
+                        self.Dustdisplay_img.setScaledContents(True)
                         self.commentMsg = "실내활동 하세요.\n마스크 필수 착용 권장합니다."
                     
                     self.CommentBrowser.setText(self._translate("CommentBrowser" , self.commentMsg));
