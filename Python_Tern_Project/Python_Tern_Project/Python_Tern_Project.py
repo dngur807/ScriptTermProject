@@ -35,7 +35,7 @@ REG_KEY = 'qvrSOFP%2FQaIF3w89WIvoxu%2BvcrCYf5q1ln7n75YYhPVW3WZP99mM1jrseOHDjFuVq
 
 SMTP_HOST = "smtp.gmail.com" # Gmail SMTP 서버 주소.
 SMTP_PORT = "587"
-
+#email
 
 class MainWindow(QDialog, UI_Main.UI_Image):
     def __init__( self , parent = None):
