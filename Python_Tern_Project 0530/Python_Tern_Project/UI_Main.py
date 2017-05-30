@@ -96,13 +96,13 @@ class UI_Image(object):
         
        
 
-
-        self.tabWidget.addTab(self.tab1, "대기오염")
+         
+        self.tabWidget.addTab(self.tab1, "                            대기오염                             ")
         
         
 #       이메일 선택
         self.tab_Email = UI_Utility.Create_Widget("tab_Email");    
-        self.tabWidget.addTab(self.tab_Email , "EmailSetting");
+        self.tabWidget.addTab(self.tab_Email , "                     EmailSetting                       ");
 
         font = UI_Utility.Create_Font(setFamily = "휴먼매직체" , setPointSize = 15 );
         self.EmailMainlabel = UI_Utility.Create_Label( "EmailMainlabel" , self.tab_Email , QtCore.QRect(190, 40, 311, 41)  , font);

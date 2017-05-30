@@ -131,8 +131,7 @@ class MainWindow(QDialog, UI_Main.UI_Image):
         self.stationName = self.root[1][0][Index][0].text;
 
     def AirpollutionInfoShow(self):# 대기 오염 정보 출력 
-        if ( self.stationcomboBox.currentIndex() == -1 or 
-self.sidocomboBox.currentIndex() == -1) :
+        if ( self.stationcomboBox.currentIndex() == -1 or self.sidocomboBox.currentIndex() == -1) :
             return;
         #현재 시간 입력
         self.CurTimeLabel.setText(self._translate("CurTimeLabel" , self.root[1][0][0][1].text));
