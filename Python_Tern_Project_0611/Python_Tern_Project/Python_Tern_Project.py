@@ -89,6 +89,7 @@ class MainWindow(QDialog, UI_Main.UI_Image):
         self.Weather_Result = self.WeatherInfo.ResultList;
         self.cityList = [];
         self.DataList = [];
+
        # self.ParseAirpollution();#파싱
         self.Setup(self);
         
@@ -112,7 +113,8 @@ class MainWindow(QDialog, UI_Main.UI_Image):
        
 
         #버튼 이벤트 설정
-        writeImageWidget(self.pic1,"/Resource/","지도","png");
+       
+        writeImageWidget(self.pic1,"/Resource/","디폴트","png");
         self.pic1.setScaledContents(True)
         #writeImageWidget(self.pic2,"/Resource/","pic2","png")
         #self.pic2.setScaledContents(True)
@@ -140,6 +142,59 @@ class MainWindow(QDialog, UI_Main.UI_Image):
         url = 'http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty?ServiceKey=%s&numOfRows=%s&pageSize=%s&pageNo=%s&startPage=%s&sidoName=%s' % (
         self._reg_key, self.numOfRows, self.pageSize, self.pageNo, self.startPage, quote(str1))
         data = urllib.request.urlopen(url).read();
+
+        #지도변경
+        # ['서울', '부산', '대구', '인천', '광주', '대전', '울산', '경기', 
+        #'강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주']
+        if(str1 == "서울") : 
+            writeImageWidget(self.pic1,"/Resource/","서울","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "부산") : 
+            writeImageWidget(self.pic1,"/Resource/","부산","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "대구") : 
+            writeImageWidget(self.pic1,"/Resource/","대구","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "인천") : 
+            writeImageWidget(self.pic1,"/Resource/","인천","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "광주") : 
+            writeImageWidget(self.pic1,"/Resource/","광주","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "대전") : 
+            writeImageWidget(self.pic1,"/Resource/","대전","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "울산") : 
+            writeImageWidget(self.pic1,"/Resource/","울산","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "경기") : 
+            writeImageWidget(self.pic1,"/Resource/","경기","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "강원") : 
+            writeImageWidget(self.pic1,"/Resource/","강원","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "충북") : 
+            writeImageWidget(self.pic1,"/Resource/","충북","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "충남") : 
+            writeImageWidget(self.pic1,"/Resource/","충남","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "전북") : 
+            writeImageWidget(self.pic1,"/Resource/","전북","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "전남") : 
+            writeImageWidget(self.pic1,"/Resource/","전남","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "경북") : 
+            writeImageWidget(self.pic1,"/Resource/","경북","png");
+            self.pic1.setScaledContents(True)
+        elif(str1 == "경남") : 
+            writeImageWidget(self.pic1,"/Resource/","경남","png");
+            self.pic1.setScaledContents(True)
+        else:
+            writeImageWidget(self.pic1,"/Resource/","디폴트","png");
+            self.pic1.setScaledContents(True)
+
         #파일 저장
         filename = "save.xml"
         f = open(filename, "wb")
