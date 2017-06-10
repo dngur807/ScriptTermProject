@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode>00</resultCode>
+		<resultMsg>NORMAL SERVICE.</resultMsg>
+	</header>
+	<body>
+		<items>
+			
+				<item>
+					<stationName>광복동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.005</so2Value>
+					<coValue>0.4</coValue>
+					<o3Value>0.042</o3Value>
+					<no2Value>0.023</no2Value>
+					<pm10Value>36</pm10Value>
+					
+					
+				    
+					<khaiValue>64</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>초량동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>-</so2Value>
+					<coValue>-</coValue>
+					<o3Value>-</o3Value>
+					<no2Value>-</no2Value>
+					<pm10Value>-</pm10Value>
+					
+					
+				    
+					<khaiValue>-</khaiValue>
+					<khaiGrade></khaiGrade>
+					<so2Grade></so2Grade>
+					<coGrade></coGrade>
+					<o3Grade></o3Grade>
+					<no2Grade></no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>태종대</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.008</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.050</o3Value>
+					<no2Value>0.007</no2Value>
+					<pm10Value>30</pm10Value>
+					
+					
+				    
+					<khaiValue>67</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>전포동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.005</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.037</o3Value>
+					<no2Value>0.030</no2Value>
+					<pm10Value>50</pm10Value>
+					
+					
+				    
+					<khaiValue>67</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>온천동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>-</so2Value>
+					<coValue>-</coValue>
+					<o3Value>-</o3Value>
+					<no2Value>-</no2Value>
+					<pm10Value>-</pm10Value>
+					
+					
+				    
+					<khaiValue>-</khaiValue>
+					<khaiGrade></khaiGrade>
+					<so2Grade></so2Grade>
+					<coGrade></coGrade>
+					<o3Grade></o3Grade>
+					<no2Grade></no2Grade>
+					<pm10Grade></pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>명장동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>-</so2Value>
+					<coValue>-</coValue>
+					<o3Value>0.046</o3Value>
+					<no2Value>0.016</no2Value>
+					<pm10Value>52</pm10Value>
+					
+					
+				    
+					<khaiValue>63</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade></so2Grade>
+					<coGrade></coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>대연동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.004</so2Value>
+					<coValue>0.2</coValue>
+					<o3Value>0.040</o3Value>
+					<no2Value>0.021</no2Value>
+					<pm10Value>49</pm10Value>
+					
+					
+				    
+					<khaiValue>66</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>학장동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.004</so2Value>
+					<coValue>0.2</coValue>
+					<o3Value>0.038</o3Value>
+					<no2Value>0.023</no2Value>
+					<pm10Value>66</pm10Value>
+					
+					
+				    
+					<khaiValue>74</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>덕천동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.003</so2Value>
+					<coValue>0.4</coValue>
+					<o3Value>0.053</o3Value>
+					<no2Value>0.014</no2Value>
+					<pm10Value>35</pm10Value>
+					
+					
+				    
+					<khaiValue>69</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>청룡동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>-</so2Value>
+					<coValue>-</coValue>
+					<o3Value>0.062</o3Value>
+					<no2Value>0.012</no2Value>
+					<pm10Value>42</pm10Value>
+					
+					
+				    
+					<khaiValue>77</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade></so2Grade>
+					<coGrade></coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>좌동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.005</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.047</o3Value>
+					<no2Value>0.013</no2Value>
+					<pm10Value>52</pm10Value>
+					
+					
+				    
+					<khaiValue>67</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>장림동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.004</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.034</o3Value>
+					<no2Value>0.019</no2Value>
+					<pm10Value>42</pm10Value>
+					
+					
+				    
+					<khaiValue>63</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>대저동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.003</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.048</o3Value>
+					<no2Value>0.007</no2Value>
+					<pm10Value>36</pm10Value>
+					
+					
+				    
+					<khaiValue>65</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>녹산동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.003</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.041</o3Value>
+					<no2Value>0.012</no2Value>
+					<pm10Value>39</pm10Value>
+					
+					
+				    
+					<khaiValue>59</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>연산동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.004</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.045</o3Value>
+					<no2Value>0.017</no2Value>
+					<pm10Value>36</pm10Value>
+					
+					
+				    
+					<khaiValue>-</khaiValue>
+					<khaiGrade></khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>1</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>기장읍</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.005</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.045</o3Value>
+					<no2Value>0.017</no2Value>
+					<pm10Value>51</pm10Value>
+					
+					
+				    
+					<khaiValue>63</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>용수리</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.003</so2Value>
+					<coValue>0.3</coValue>
+					<o3Value>0.054</o3Value>
+					<no2Value>0.011</no2Value>
+					<pm10Value>35</pm10Value>
+					
+					
+				    
+					<khaiValue>70</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>수정동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.004</so2Value>
+					<coValue>0.4</coValue>
+					<o3Value>0.043</o3Value>
+					<no2Value>0.016</no2Value>
+					<pm10Value>48</pm10Value>
+					
+					
+				    
+					<khaiValue>64</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>부곡동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.003</so2Value>
+					<coValue>0.4</coValue>
+					<o3Value>0.054</o3Value>
+					<no2Value>0.021</no2Value>
+					<pm10Value>44</pm10Value>
+					
+					
+				    
+					<khaiValue>70</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>광안동</stationName>
+					
+					<dataTime>2017-04-18 10:00</dataTime>
+					<so2Value>-</so2Value>
+					<coValue>-</coValue>
+					<o3Value>0.024</o3Value>
+					<no2Value>0.024</no2Value>
+					<pm10Value>-</pm10Value>
+					
+					
+				    
+					<khaiValue>-</khaiValue>
+					<khaiGrade></khaiGrade>
+					<so2Grade></so2Grade>
+					<coGrade></coGrade>
+					<o3Grade>1</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade></pm10Grade>
+					
+				    
+				</item>
+			
+				<item>
+					<stationName>대신동</stationName>
+					
+					<dataTime>2017-06-07 18:00</dataTime>
+					<so2Value>0.005</so2Value>
+					<coValue>0.5</coValue>
+					<o3Value>0.050</o3Value>
+					<no2Value>0.014</no2Value>
+					<pm10Value>41</pm10Value>
+					
+					
+				    
+					<khaiValue>67</khaiValue>
+					<khaiGrade>2</khaiGrade>
+					<so2Grade>1</so2Grade>
+					<coGrade>1</coGrade>
+					<o3Grade>2</o3Grade>
+					<no2Grade>1</no2Grade>
+					<pm10Grade>2</pm10Grade>
+					
+				    
+				</item>
+			
+		</items>
+			<numOfRows>81</numOfRows>
+			<pageNo>1</pageNo>
+			<totalCount>21</totalCount>
+	</body>
+</response>
